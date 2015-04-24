@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddItem" 
+    android:background="#FFFFFF"
+   >
+
+    <EditText
+        android:id="@+id/etFoodName"
+        style="@style/EditTextTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Name of Dish"
+        android:inputType="textCapWords"
+        android:textSize="20sp" 
+        />
+
+    <Button
+        android:id="@+id/bAddToList"
+        style="@style/ButtonTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Add to list" />
+
+</LinearLayout>
